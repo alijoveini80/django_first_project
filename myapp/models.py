@@ -4,6 +4,8 @@ from django.urls import reverse
 
 
 # Create your models here.
+
+#this is a Product model
 class Product(models.Model):
     def __str__(self):
         return self.name
